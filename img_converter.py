@@ -13,7 +13,7 @@ def calculate_mse(image1, image2):
     arr2 = np.array(image2)
     return np.mean((arr1 - arr2) ** 2)
 
-def convert_gif_to_frames(gif_path, output_folder, similarity_threshold=0, target_size=None):
+def convert_gif_to_frames(gif_path, output_folder, similarity_threshold=10, target_size=None):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
