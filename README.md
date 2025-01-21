@@ -39,7 +39,7 @@ convert_gif_to_frames(
 **Parameters:**
 - `gif_path`: Path to the input GIF file.
 - `output_folder`: Directory where extracted frames will be saved as `.jpg` files.
-- `similarity_threshold`: Mean Squared Error (MSE) threshold for detecting duplicate frames. Lower values detect more duplicates.
+- `similarity_threshold`: Mean Squared Error (MSE) threshold for detecting duplicate frames. Higher values detect more duplicates.
 - `target_size`: Tuple `(width, height)` to resize frames. Optional.
 
 ### 2. Generate Header File
