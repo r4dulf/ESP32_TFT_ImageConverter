@@ -93,12 +93,3 @@ const unsigned short PROGMEM animation_data[][16384] = {
 - The RGB565 conversion uses 16 bits per pixel to reduce memory usage while maintaining color fidelity.
 - Duplicate frames are filtered out based on the `similarity_threshold` parameter.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Contributions
-Contributions, bug reports, and feature requests are welcome! Feel free to open an issue or submit a pull request.
-
-## Contact
-For any questions or support, please contact [Your Name/Your GitHub Profile].
-
